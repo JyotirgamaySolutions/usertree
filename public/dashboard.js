@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 async function fetchAndUpdateLogs() {
   try {
-    const response = await fetch('https://usertree-ecru.vercel.app/api/logs');
+    const response = await fetch('/api/logs');
     currentLogs = await response.json(); // Store logs globally
     updateTable(currentLogs);
     updateChart(currentLogs);
