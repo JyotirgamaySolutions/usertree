@@ -22,9 +22,10 @@ const supabase = createClient(
 // Enhanced CORS configuration
 app.use(cors({
   origin: [
-
-    'https://usertree-ecru.vercel.app/'
-
+    
+    'https://tree-builder-zeta.vercel.app', // Client's origin
+    'https://usertree-ecru.vercel.app',     // Server's own origin
+    'http://localhost:3000'
   ],
   methods: ['POST', 'GET', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
