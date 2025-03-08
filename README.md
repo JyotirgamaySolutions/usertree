@@ -62,5 +62,5 @@ POST /increment-tree - Record user activity
 └── README.md                # This file
 ```
 
-**Maintained by:** [Shashikant Maurya](https://github.com/shashikant190) & [Gaurav Suraywanshi](https://github.com/suryawanshigaurav40496)  
-**Report Issues:** [GitHub Issues](https://github.com/shashikant190/usercount-treebuilder/issues)
+**Maintained by:** [Shashikant Maurya](https://github.com/shashikant190)   
+
